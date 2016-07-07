@@ -31,3 +31,21 @@
 */
 
 // YOUR CODE HERE
+
+  // split the word into individual letters
+  // count the letters
+  // store them into an object
+
+function letterCount(word) {
+  var index = {};
+  for (i=0; i < word.length; i++) {
+    var character = word.charAt(i);
+    var count = index[character];
+    if (count) {
+      index[character] = count + 1;
+    } else {
+      index[character] = 1;
+    }
+  }
+  console.log(index);
+}
