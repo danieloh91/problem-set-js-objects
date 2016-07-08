@@ -34,3 +34,11 @@
 */
 
 // YOUR CODE HERE
+// input for the fromDate is today's current date
+var fromDate = Date.parse("07/08/2016");
+
+function daysUntilDate(str) {
+  var toDate = Date.parse(str);
+  var daysInBetween = toDate - fromDate;
+  console.log(daysInBetween);
+}
