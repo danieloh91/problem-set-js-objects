@@ -45,3 +45,10 @@
 */
 
 // YOUR CODE HERE
+// '=' in the query string positions separates key and value
+// & separates key-value pairs from one another
+// all keys and values parsed as String
+var index = {}
+function parseQueryString() {
+
+}
